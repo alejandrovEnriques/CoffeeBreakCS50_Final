@@ -1,6 +1,6 @@
 # Coffee Break
 
-#### Video Demo: <VIDEO URL HERE>
+#### Video Demo: https://youtu.be/N5JXtMbuV_I
 
 #### Description:
 

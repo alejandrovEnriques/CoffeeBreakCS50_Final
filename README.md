@@ -23,3 +23,23 @@ Throughout development, I encountered several challenges. One of the most diffic
 Although the current version is fully playable, there are many ideas that could be explored in future updates. Potential improvements include additional customer types, new visual effects, expanded scoring systems, online leaderboards, more music tracks, and a larger variety of coffee shop environments. I would also like to further develop the game's presentation through additional artwork and animations.
 
 Overall, Coffee Break represents the combination of many concepts learned throughout CS50, including game logic, state management, user interaction, file organization, and problem solving. More importantly, it allowed me to create a complete game from concept to final release while applying programming principles in a practical and creative project.
+
+File Structure
+
+The project is divided into multiple Lua files to keep the code organized and easier to maintain. The main.lua file contains the main game loop, state management, drawing logic, and initialization of the game. character.lua handles the player's movement and interactions. customers.lua manages customer spawning, movement, states, and customer-related gameplay logic. difficulty.lua controls the progression of difficulty over time, including spawn rates and movement speeds. save.lua is responsible for saving persistent data such as high scores. scores.lua manages score calculations, multipliers, and statistics shown to the player.
+
+Design Decisions
+
+One of the most important design decisions was choosing a lane-based gameplay structure inspired by classic arcade games. This allowed the controls to remain simple while still creating increasing difficulty as more customers appeared. Another important decision was supporting both desktop and mobile devices. This required redesigning the input system so that the game could be controlled with either a keyboard or touch controls.
+
+Development Process
+
+Development began with a simple prototype that only allowed customers to move across the screen. Additional mechanics were added incrementally, including customer states, score tracking, failure conditions, pause functionality, mobile controls, and difficulty progression. Multiple playtesting sessions were conducted with friends and family members to evaluate the game's pacing and difficulty curve. Feedback from these sessions was used to rebalance movement speeds, customer spawn timing, and scoring systems.
+
+Challenges
+
+Several technical challenges were encountered during development. One challenge was creating a difficulty system that gradually increased tension without overwhelming new players too quickly. Another challenge was implementing mobile controls that felt responsive while maintaining the same gameplay experience available on desktop systems. Additional work was required to ensure menus, pause screens, and game over screens behaved consistently across platforms.
+
+Future Improvements
+
+Although the project is complete for the purposes of CS50, there are many possible improvements. Future versions could include additional customer types, new environments, animations, sound effects, online leaderboards, achievements, expanded progression systems, and more visual polish. Additional accessibility options and customization settings could also improve the player experience.
